@@ -6,7 +6,7 @@ def prime?(number)
       dividers.push(value)
     end 
   end 
-  if number <= 0 
+  if number <= 0 || number == 1
     false 
     elsif dividers.length > 2 
     false 
