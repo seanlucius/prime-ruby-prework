@@ -8,8 +8,6 @@ def prime?(number)
   end 
   if dividers.length > 2 
     false 
-  elsif number * (-1) = number 
-    false 
   else 
     true 
   end 
